@@ -63,7 +63,7 @@ public class RepeatTask implements Runnable {
         if (count == 3)
             count = 0;
 
-        new Handler().postDelayed(this, 10000);
+        handler.postDelayed(this, 10000);
 
     }
 
